@@ -264,7 +264,6 @@ section{
     padding:20px;
     margin-left: 20px;
     margin-top: 20px;
-    overflow: hidden;
     box-shadow: 5px 5px 10px 0 rgba(76, 110, 245, .1);
 }
 .card:hover{
@@ -273,11 +272,6 @@ section{
 }
 .card p{
     color: black;
-}
-
-.card-body{
-    overflow: hidden;
-    
 }
 
 
