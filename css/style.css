@@ -364,6 +364,9 @@ background-color: #fff;
 	position: relative;
 	z-index: 1;
 }
+.footer-logo{
+    margin-left: -450px;
+}
 
 .footer-left .footer-social a:hover:before {
 	opacity: 1;
@@ -410,9 +413,6 @@ background-color: #fff;
 /* desktop version */
 @media (min-width: 992px) { 
     .footer-logo{
-        text-align: center;
-    }
-    .footer-social{
         text-align: center;
     }
     .nav-item{
