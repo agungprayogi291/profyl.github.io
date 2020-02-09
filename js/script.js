@@ -7,4 +7,4 @@ function scrollFunction() {
     document.getElementById("navbar").style.padding = "5px 10px";
   }
 }
-  
+ 

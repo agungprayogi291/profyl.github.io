@@ -28,7 +28,10 @@ section{
     border-radius: 0;
     width: 90px;
 }
-
+.card:hover{
+    transform: translate(0,-10px);
+    transition: 0.2s;
+}
 .navbar-toggler{
     background-color: white;
 }
@@ -260,19 +263,23 @@ section{
 }
 
 /* portfolio */
-.card{
-    padding:20px;
-    margin-left: 20px;
-    margin-top: 20px;
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+.gal-img {
+    margin-bottom: 1em;
+    padding-right: 0px;
     box-shadow: 5px 5px 10px 0 rgba(76, 110, 245, .1);
-}
-.card:hover{
+
+}   
+.gal-img img:hover{
     transform: translate(0,-10px);
-    transition: 0.2s;
-}
-.card p{
-    color: black;
-}
+} 
+
+
+
 
 
 /*-- hobby --*/
@@ -280,7 +287,7 @@ section{
     background: #f6f6f6;
 }
 .hobby-in .card {
-    padding: 1.5em .5em;
+
     border: none;
     transition: none;
     background: #fff;
@@ -288,7 +295,7 @@ section{
 }
 .hobby-in .card h5.card-title {
     font-size: 20px;
-    letter-spacing: 1px;
+
 }
 .hobby-in .card span.fa {
     font-size: 2em;
